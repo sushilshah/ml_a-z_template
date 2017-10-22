@@ -1,0 +1,6 @@
+Gradient Descent
+https://iamtrask.github.io/2015/07/27/python-network-part2/
+http://neuralnetworksanddeeplearning.com/chap2.html
+
+CNN
+http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
