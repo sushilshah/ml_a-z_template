@@ -1,4 +1,6 @@
 # Artificial Neural Network
+#Troubleshooting issues
+#https://wipro.udemy.com/machinelearning/learn/v4/questions/2320940?siteID=eyzsD2QGsYg-MRBSUM3v5Vj3AbH8ujxlNQ&LSNPUBID=eyzsD2QGsYg
 
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
@@ -7,6 +9,7 @@
 # Install Tensorflow from the website: https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
 
 # Installing Keras
+#conda install -c anaconda scipy
 # pip install --upgrade keras
 
 # Part 1 - Data Preprocessing
