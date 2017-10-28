@@ -4,3 +4,7 @@ http://neuralnetworksanddeeplearning.com/chap2.html
 
 CNN
 http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+
+https://cs.nju.edu.cn/wujx/paper/CNN.pdf
+https://arxiv.org/pdf/1609.04112.pdf
+https://arxiv.org/pdf/1502.01852.pdf
