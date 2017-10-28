@@ -67,3 +67,17 @@ classifier.fit_generator(training_set,
                          nb_epoch = 25,
                          validation_data = test_set,
                          nb_val_samples = 2000)
+
+'''
+# serialize model to JSON
+model_json = classifier.to_json()
+with open("model.json", "w") as json_file:
+    json_file.write(model_json)
+
+# serialize weights to HDF5
+classifier.save_weights("model.h5")
+print("Saved model to disk")
+
+#!pip install h5py
+#classifier.save('my_model.h5')
+'''
