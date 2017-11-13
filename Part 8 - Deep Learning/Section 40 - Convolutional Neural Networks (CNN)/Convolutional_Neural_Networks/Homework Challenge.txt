@@ -1,0 +1,31 @@
+Homework Challenge - Get the gold medal
+Section 12, Lecture 57
+Homework Instruction
+
+
+Evaluation was already made during the training with the validation set, therefore k-Fold Cross Validation is not needed.
+
+Then the techniques to improve and tune a CNN model are the same as for ANNs. So here is the challenge:
+
+Apply the techniques you've learnt and use your architect power to make a CNN that will give you the gold medal:
+
+Bronze medal: Test set accuracy between 80% and 85%
+
+Silver medal: Test set accuracy between 85% and 90%
+
+Gold medal: Test set accuracy over 90%!!
+
+Rules:
+
+- Use the same training set
+
+- Dropout allowed
+
+- Customized SGD allowed
+
+- Specific seeds not allowed
+
+Tips will be provided soon.
+
+
+
