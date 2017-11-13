@@ -81,3 +81,18 @@ print("Saved model to disk")
 #!pip install h5py
 #classifier.save('my_model.h5')
 '''
+"""
+Example test a single image 
+"""
+import numpy as np
+from keras.preprocessing import image
+test_image = image.load_img('dataset/single_predection/cat_or_dog.jpg',
+                            target_size = (64, 64)
+        )
+test_image = image.img_to_array(test_image)
+#add new dimension -- batch, accepts inputs in a batch
+test_image = np.expand_dims(test_image, 0)
+#op: 0/1
+result = classifier.predict(test_image)
+#This gives class indices as an output, map it with the result
+training_set.class_indices
